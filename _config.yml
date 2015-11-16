@@ -1,14 +1,26 @@
 layout_spectrum: 0.7234042
+name: ThinkDrones
 typography_spectrum: 0.2276596
 color:
-  lightness: 0.9940777
   brandStrength: 1
   saturation: 0.8489361
-  rhythmicContrast: 0.1638298
   brandColors:
     - '#1F160E'
     - '#ABB5AB'
     - '#5D6F76'
     - '#FAF4D0'
     - '#77654B'
-name: ThinkDrones
+  lightness: 0.9940777
+  rhythmicContrast: 0.1638298
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
