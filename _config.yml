@@ -1,17 +1,5 @@
-layout_spectrum: 0.7234042
+layout_spectrum: 1
 name: ThinkDrones
-typography_spectrum: 0.2276596
-color:
-  brandStrength: 1
-  saturation: 0.8489361
-  brandColors:
-    - '#1F160E'
-    - '#ABB5AB'
-    - '#5D6F76'
-    - '#FAF4D0'
-    - '#77654B'
-  lightness: 0.9940777
-  rhythmicContrast: 0.1638298
 collections:
   - index:
       navigable: true
@@ -24,3 +12,15 @@ collections:
       number: 10
     permalink:
       path: '/:title/'
+color:
+  brandStrength: 1
+  saturation: 0.8489361
+  brandColors:
+    - '#1F160E'
+    - '#ABB5AB'
+    - '#5D6F76'
+    - '#FAF4D0'
+    - '#77654B'
+  lightness: 0.9940777
+  rhythmicContrast: 0.1638298
+typography_spectrum: 0.2276596
